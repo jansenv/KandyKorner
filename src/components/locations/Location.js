@@ -1,4 +1,5 @@
 import React from "react"
+import "./Location.css"
 
 export default ( { location } ) => (
     <section className = "location">

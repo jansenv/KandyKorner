@@ -1,6 +1,7 @@
 import React, { useContext } from "react"
 import { LocationContext } from "./LocationsProvider"
 import Location from "./Location"
+import "./Location.css"
 
 export default () => {
     const { locations } = useContext(LocationContext)
